@@ -16,7 +16,6 @@ const Section = styled.section`
   align-items: center;
   overflow-x: hidden;
 
-
   background-color: ${(props) => props.theme.body};
   color: ${(props) => props.theme.text};
 
@@ -130,12 +129,12 @@ const Footer = () => {
           width="300"
           height="300"
           src={Logo}
-          alt="Wibe"
+          alt="Fashion Vista"
           data-scroll
           data-scroll-speed="2"
         />
         <h3 data-scroll data-scroll-speed="-1">
-          Wibe Studio
+          Fashion Vista
         </h3>
       </LogoContainer>
       <FooterComponent
@@ -185,11 +184,10 @@ const Footer = () => {
           >
             Made with &hearts; by{" "}
             <a
-              href="http://devdreaming.com"
+              href="https://github.com/Abhinav8979/fashion-vista"
               target={"_blank"}
-              rel="dofollow noreferrer"
             >
-              CodeBucks
+              Abhinav
             </a>
           </span>
         </Bottom>

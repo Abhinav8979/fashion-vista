@@ -20,8 +20,6 @@ const Section = styled.section`
   @media (max-width: 30em) {
     width: 100vw;
   }
-  /* justify-content: center;
-  align-items: center; */
 `;
 
 const Left = styled.div`
@@ -144,7 +142,7 @@ const About = () => {
         About Us
       </Title>
       <Left data-scroll data-scroll-sticky data-scroll-target="#fixed-target">
-        We&apos;re fashion studio based in california. We create unique designs
+        We're fashion studio based in california. We create unique designs
         that will blow your mind. We also design unique jewellary pieces.
         Fashion is an ART that can not be grasped by everyone.
         <br />

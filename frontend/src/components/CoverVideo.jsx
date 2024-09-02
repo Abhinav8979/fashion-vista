@@ -105,10 +105,18 @@ const CoverVideo = () => {
           <motion.h1
             variants={item}
             data-scroll
-            data-scroll-delay="0.13"
+            data-scroll-delay="0.15"
             data-scroll-speed="4"
           >
-            W
+            F
+          </motion.h1>
+          <motion.h1
+            variants={item}
+            data-scroll
+            data-scroll-delay="0.11"
+            data-scroll-speed="4"
+          >
+            A
           </motion.h1>
           <motion.h1
             variants={item}
@@ -116,7 +124,7 @@ const CoverVideo = () => {
             data-scroll-delay="0.09"
             data-scroll-speed="4"
           >
-            i
+            S
           </motion.h1>
           <motion.h1
             variants={item}
@@ -124,7 +132,7 @@ const CoverVideo = () => {
             data-scroll-delay="0.06"
             data-scroll-speed="4"
           >
-            b
+            H
           </motion.h1>
           <motion.h1
             variants={item}
@@ -132,7 +140,23 @@ const CoverVideo = () => {
             data-scroll-delay="0.04"
             data-scroll-speed="4"
           >
-            e
+            I
+          </motion.h1>
+          <motion.h1
+            variants={item}
+            data-scroll
+            data-scroll-delay="0.02"
+            data-scroll-speed="4"
+          >
+            O
+          </motion.h1>
+          <motion.h1
+            variants={item}
+            data-scroll
+            data-scroll-delay="0.01"
+            data-scroll-speed="4"
+          >
+            N
           </motion.h1>
         </div>
         <motion.h2

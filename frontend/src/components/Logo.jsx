@@ -1,7 +1,7 @@
-import { motion } from 'framer-motion';
-import React from 'react';
-import { Link } from 'react-router-dom';
-import styled from 'styled-components';
+import { motion } from "framer-motion";
+import React from "react";
+import { Link } from "react-router-dom";
+import styled from "styled-components";
 
 const Container = styled.div`
   position: absolute;
@@ -50,7 +50,7 @@ const pathVariants = {
     transition: {
       duration: 2,
       delay: 3, // 0
-      ease: 'easeInOut',
+      ease: "easeInOut",
     },
   },
 };
@@ -66,7 +66,7 @@ const textVariants = {
     transition: {
       duration: 2,
       delay: 5, // 2
-      ease: 'easeInOut',
+      ease: "easeInOut",
     },
   },
 };
@@ -75,7 +75,6 @@ const Logo = () => {
   return (
     <Container>
       <Link to="/">
-        {/* <img src={star} alt="Wibe Fashion" /> */}
         <svg
           xmlns="http://www.w3.org/2000/svg"
           enableBackground="new 0 0 24 24"
@@ -95,7 +94,7 @@ const Logo = () => {
         </svg>
 
         <Text variants={textVariants} initial="hidden" animate="visible">
-          Wibe Studio
+          Fashion Vista
         </Text>
       </Link>
     </Container>

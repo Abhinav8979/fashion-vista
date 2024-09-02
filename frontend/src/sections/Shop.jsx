@@ -130,8 +130,8 @@ const Product = ({ img, title = "" }) => {
   return (
     // x: 100, y: -100
     <Item
+      whileHover={{ filter: "grayscale(0%" }}
       initial={{ filter: "grayscale(100%)" }}
-      whileInView={{ filter: "grayscale(0%)" }}
       transition={{ duration: 0.5 }}
       viewport={{ once: false, amount: "all" }}
     >
@@ -164,8 +164,6 @@ const Shop = () => {
           scroller: ".App", //locomotive-scroll
           scrub: 1,
           pin: true,
-          // markers: true,
-          // anticipatePin: 1,
         },
         height: `${scrollingElement.scrollWidth}px`,
         ease: "none",
